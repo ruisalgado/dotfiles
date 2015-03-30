@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.vim: vim/
     ~/.vimrc: vimrc
+    ~/.oh-my-zsh: oh-my-zsh
     ~/.zsh: zsh/
     ~/.zshrc:
         force: true
