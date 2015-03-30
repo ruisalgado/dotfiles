@@ -5,6 +5,7 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.tmux.conf: tmux.conf
     ~/.zsh: zsh/
     ~/.zshrc:
         force: true
