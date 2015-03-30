@@ -1,0 +1,24 @@
+[user]
+	name = Rui Salgado
+	email = ruivfsalgado@gmail.com
+[color]
+	ui = auto
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[pager]
+	status = true
+	show-branch = true
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[merge]
+	tool = opendiff
+[credential]
+	helper = osxkeychain
+[core]
+	compression = -1

@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/rusal/Development/kabisa/yellowbrick-mobile/.git/hooks'
+let g:netrw_dirhist_2='/Users/rusal/Development/kabisa/yellowbrick-account-activation'
+let g:netrw_dirhist_3='/Users/rusal/Development/personal_projects/spring-resource-handling/.gradle'
+let g:netrw_dirhist_4='/Users/rusal/.config'
+let g:netrw_dirhist_5='/Users/rusal/.LUFTRAUSERS'
