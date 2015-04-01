@@ -4,9 +4,8 @@ export SVN_EDITOR=vi
 ##
 
 ##
-# X11 and imagemagick
+# Imagemagick
 #
-export CPPFLAGS=-L/opt/X11/include
 export C_INCLUDE_PATH=/usr/local/Cellar/imagemagick/6.7.7-6/include/ImageMagick
 ##
 
@@ -48,4 +47,11 @@ export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 if [ -f `brew --prefix`/etc/profile.d/z.sh ]; then
     . `brew --prefix`/etc/profile.d/z.sh
 fi
+##
+
+##
+# CHRUBY
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+RUBIES+=(~/.rubies/*)
 ##
