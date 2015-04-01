@@ -18,11 +18,16 @@ export PATH=/Users/rusal/bin:$PATH
 
 ##
 # JVM STUFF
-export JAVA_HOME=`/usr/libexec/java_home`
+function setjvm {
+  export JAVA_HOME=$(/usr/libexec/java_home -v $1)
+}
+setjvm 1.8
+
 export M3_HOME=/usr/local/Cellar/maven/3.1.1
 export PATH=$M3_HOME/bin:$PATH
 export MAVEN_REPOSITORY=/Users/rusal/.m2/repository
 export MAVEN_OPTS="-Xms256m -Xmx1G -XX:MaxPermSize=256m"
+export TOMCAT_HOME=/usr/local/Cellar/tomcat/7.0.54/libexec/
 ##
 
 ##
