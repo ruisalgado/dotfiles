@@ -10,6 +10,7 @@
     ~/.zshrc:
         force: true
         path: zshrc
+    ~/.gitignore: gitignore
     ~/.gitconfig: gitconfig
 
 - shell:

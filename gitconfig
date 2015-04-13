@@ -22,3 +22,4 @@
 	helper = osxkeychain
 [core]
 	compression = -1
+	excludesfile = ~/.gitignore

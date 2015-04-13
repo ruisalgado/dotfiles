@@ -55,3 +55,10 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 RUBIES+=(~/.rubies/*)
 ##
+
+##
+# Mou
+function mou {
+  open /Applications/Mou.app $1
+}
+##
