@@ -10,4 +10,8 @@ set clipboard=unnamed
 set mouse=a
 set nrformats=
 
+"source .vimrc if present
+set exrc
+set secure
+
 map <C-n> :NERDTreeToggle<CR>
