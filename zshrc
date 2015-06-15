@@ -54,7 +54,7 @@ source ~/.zsh/bootstrap.zsh
 source ~/.zsh/settings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/external.zsh
-export PATH="/Development/leiningen/bin:/usr/local/Cellar/maven/3.1.1/bin:/Users/rusal/bin:/Users/rusal/.dotfiles/bin:/opt/X11/bin:$PATH"
+export PATH="/Development/leiningen/bin:/usr/local/Cellar/maven/3.1.1/bin:$HOME/bin:$HOME/.dotfiles/bin:/opt/X11/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

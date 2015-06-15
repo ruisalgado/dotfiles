@@ -12,7 +12,7 @@ export C_INCLUDE_PATH=/usr/local/Cellar/imagemagick/6.7.7-6/include/ImageMagick
 ##
 # HOME BIN
 ##
-export PATH=/Users/rusal/bin:$PATH
+export PATH=$HOME/bin:$PATH
 ##
 
 ##
@@ -24,7 +24,7 @@ setjvm 1.8
 
 export M3_HOME=/usr/local/Cellar/maven/3.1.1
 export PATH=$M3_HOME/bin:$PATH
-export MAVEN_REPOSITORY=/Users/rusal/.m2/repository
+export MAVEN_REPOSITORY=$HOME/.m2/repository
 export MAVEN_OPTS="-Xms256m -Xmx1G -XX:MaxPermSize=256m"
 export TOMCAT_HOME=/usr/local/Cellar/tomcat/7.0.54/libexec/
 ##
@@ -53,7 +53,6 @@ fi
 # CHRUBY
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
-RUBIES+=(~/.rubies/*)
 ##
 
 ##
