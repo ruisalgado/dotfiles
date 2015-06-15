@@ -4,3 +4,4 @@ alias catalina="sh $HOME/Development/java/tomcat/bin/catalina.sh"
 alias sbtjr="sbt --jrebel"
 alias simplehttp="python -m SimpleHTTPServer"
 alias git-root='cd $(git rev-parse --show-cdup)'
+alias chrome='open -a Google\ Chrome'
