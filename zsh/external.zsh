@@ -1,4 +1,10 @@
 ##
+# HOMEBREW
+##
+export PATH="/usr/local/sbin:$PATH"
+##
+
+##
 # SVN
 export SVN_EDITOR=vi
 ##
@@ -38,7 +44,8 @@ export PATH=/Development/leiningen/bin:$PATH
 ##
 # NODE
 ##
-export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 ###
 
 ##
@@ -65,4 +72,4 @@ function mou {
 ##
 # Haskell & Purescript
 export PATH=$HOME/.cabal/bin:$PATH
-# ##
+##
