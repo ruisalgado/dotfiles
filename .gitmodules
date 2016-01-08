@@ -22,3 +22,6 @@
 [submodule "vim/bundle/purescript-vim"]
 	path = vim/bundle/purescript-vim
 	url = https://github.com/raichoo/purescript-vim.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
