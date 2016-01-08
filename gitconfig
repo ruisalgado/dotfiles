@@ -16,6 +16,7 @@
 	co = checkout
 	br = branch
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	serve = daemon --verbose --export-all --enable=receive-pack --base-path=.git --reuseaddr --strict-paths .git/
 [merge]
 	tool = opendiff
 [credential]
@@ -23,3 +24,5 @@
 [core]
 	compression = -1
 	excludesfile = ~/.gitignore
+[push]
+	default = current
