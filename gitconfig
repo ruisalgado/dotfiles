@@ -7,9 +7,6 @@
 	diff = auto
 	branch = auto
 	interactive = auto
-[pager]
-	status = true
-	show-branch = true
 [alias]
 	st = status
 	ci = commit
@@ -24,5 +21,6 @@
 [core]
 	compression = -1
 	excludesfile = ~/.gitignore
+	pager = less -F -X
 [push]
 	default = current
