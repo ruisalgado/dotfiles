@@ -15,7 +15,8 @@
     ~/.tmux: tmux
     ~/.emacs: emacs
     ~/.emacs.d: emacs.d
-    "~/Library/Application\ Support/Code/User/settings.json": code-settings.json
+    "~/Library/Application\ Support/Code/User/settings.json": code/settings.json
+    "~/Library/Application\ Support/Code/User/keybindings.json": code/keybindings.json
 
 - shell:
     - git submodule update --init --recursive
