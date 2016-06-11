@@ -2,6 +2,9 @@
 # HOMEBREW
 ##
 export PATH="/usr/local/sbin:$PATH"
+if [ -f ~/.homebrew_github_api_token ]; then
+    export HOMEBREW_GITHUB_API_TOKEN="$(cat ~/.homebrew_github_api_token)"
+fi
 ##
 
 ##
