@@ -66,13 +66,6 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 ##
 
 ##
-# Mou
-function mou {
-  open /Applications/Mou.app $1
-}
-##
-
-##
 # Haskell & Purescript
 export PATH=$HOME/.cabal/bin:$PATH
 ##

@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": "auto",
-    
-    "files.autoSave": "onFocusChange",    
+    "editor.detectIndentation": true,
+
+    "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true
 }
