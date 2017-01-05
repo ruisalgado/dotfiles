@@ -20,7 +20,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -49,15 +49,13 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(git gitfast tmux brew bundler mvn npm)
 
 # User configuration
-
+source $ZSH/oh-my-zsh.sh
 source ~/.zsh/bootstrap.zsh
 source ~/.zsh/settings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/external.zsh
 export PATH="/usr/local/Cellar/maven/3.1.1/bin:$HOME/bin:$HOME/.dotfiles/bin:/opt/X11/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

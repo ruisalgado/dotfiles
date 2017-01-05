@@ -39,12 +39,6 @@ export TOMCAT_HOME=/usr/local/Cellar/tomcat/7.0.54/libexec/
 ##
 
 ##
-# CLOJURE
-##
-export PATH=/Development/leiningen/bin:$PATH
-###
-
-##
 # NODE
 ##
 export NVM_DIR=~/.nvm
@@ -69,6 +63,12 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 # Haskell & Purescript
 export PATH=$HOME/.cabal/bin:$PATH
 ##
+#
+
+##
+# Python (PIP)
+export PATH=/Users/rusal/Library/Python/2.7/bin:$PATH
+##
 
 ##
 # Visual Studio Code
@@ -84,3 +84,7 @@ function code {
 }
 ##
 
+##
+# Tmuxp
+compdef _tmuxp_completion tmuxp;
+##

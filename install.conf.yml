@@ -13,6 +13,7 @@
     ~/.gitignore: gitignore
     ~/.gitconfig: gitconfig
     ~/.tmux: tmux
+    ~/.tmuxp: tmuxp
     ~/.emacs: emacs
     ~/.emacs.d: emacs.d
     "~/Library/Application\ Support/Code/User/settings.json": code/settings.json
