@@ -3,6 +3,3 @@ emacs.d/url
 
 # plugins cloned with tmux plugin manager
 tmux/plugins
-
-# tmuxp session config are machine specific
-tmuxp

@@ -84,7 +84,3 @@ function code {
 }
 ##
 
-##
-# Tmuxp
-compdef _tmuxp_completion tmuxp;
-##
