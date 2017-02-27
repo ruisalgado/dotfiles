@@ -3,3 +3,4 @@ emacs.d/url
 
 # plugins cloned with tmux plugin manager
 tmux/plugins
+tmux/resurrect
