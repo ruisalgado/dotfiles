@@ -1,7 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.detectIndentation": true,
-
+    "editor.minimap.enabled": false,
     "files.autoSave": "onFocusChange",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "typescript.check.npmIsInstalled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.enablePreview": false
 }
