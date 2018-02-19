@@ -8,5 +8,6 @@
     "typescript.check.npmIsInstalled": false,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false
 }
