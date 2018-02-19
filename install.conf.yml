@@ -15,6 +15,7 @@
     ~/.tmux: tmux
     ~/.emacs: emacs
     ~/.emacs.d: emacs.d
+    ~/bin: bin
     "~/Library/Application\ Support/Code/User/settings.json": code/settings.json
     "~/Library/Application\ Support/Code/User/keybindings.json": code/keybindings.json
 
