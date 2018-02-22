@@ -48,15 +48,13 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git gitfast tmux bundler mvn npm)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 source ~/.zsh/bootstrap.zsh
 source ~/.zsh/settings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/external.zsh
-export PATH="/usr/local/Cellar/maven/3.1.1/bin:$HOME/bin:$HOME/.dotfiles/bin:/opt/X11/bin:$PATH"
-# export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

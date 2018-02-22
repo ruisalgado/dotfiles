@@ -8,6 +8,12 @@ fi
 ##
 
 ##
+# X11
+#
+export PATH="/opt/X11/bin:$PATH"
+##
+
+##
 # SVN
 export SVN_EDITOR=vi
 ##
