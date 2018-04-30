@@ -48,13 +48,13 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git gitfast tmux bundler mvn npm)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 source ~/.zsh/bootstrap.zsh
 source ~/.zsh/settings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/external.zsh
+
+source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
