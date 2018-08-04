@@ -9,5 +9,10 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "workbench.editor.enablePreview": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "vscode-icons",
+    "[terraform]": {
+
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never"
 }
