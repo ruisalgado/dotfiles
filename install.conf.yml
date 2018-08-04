@@ -12,7 +12,6 @@
         path: zshrc
     ~/.gitignore: gitignore
     ~/.gitconfig: gitconfig
-    ~/.tmux: tmux
     ~/.emacs: emacs
     ~/.emacs.d: emacs.d
     ~/bin: bin
