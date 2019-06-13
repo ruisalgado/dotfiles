@@ -104,3 +104,13 @@ function code {
 }
 ##
 
+##
+# .NET CORE (.NET)
+export PATH=/Users/rusal/.dotnet/tools:$PATH
+##
+
+##
+# QT
+export PATH="/usr/local/opt/qt/bin:$PATH"
+##
+
