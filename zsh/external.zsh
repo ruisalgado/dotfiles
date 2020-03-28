@@ -1,4 +1,9 @@
 ##
+# DIRENV
+eval "$(direnv hook zsh)"
+##
+
+##
 # HOMEBREW
 ##
 export PATH="/usr/local/sbin:$PATH"
