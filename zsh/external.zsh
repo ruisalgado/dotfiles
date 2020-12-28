@@ -119,3 +119,7 @@ export PATH=/Users/rusal/.dotnet/tools:$PATH
 export PATH="/usr/local/opt/qt/bin:$PATH"
 ##
 
+##
+# BROOT
+source /Users/rusal/.config/broot/launcher/bash/br
+##
