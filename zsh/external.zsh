@@ -123,3 +123,8 @@ export PATH="/usr/local/opt/qt/bin:$PATH"
 # BROOT
 source /Users/rusal/.config/broot/launcher/bash/br
 ##
+
+##
+# Flutter
+export PATH="/Users/rusal/Development/flutter_macos_2.0.2-stable/bin:$PATH"
+##
