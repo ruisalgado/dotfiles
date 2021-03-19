@@ -51,8 +51,8 @@ export TOMCAT_HOME=/usr/local/Cellar/tomcat/7.0.54/libexec/
 
 ##
 # ANDROID
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
-export PATH="$ANDROID_SDK_ROOT/build-tools/28.0.2:$PATH"
+export ANDROID_SDK_ROOT="/Users/rusal/Library/Android/sdk"
+export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
 #
 
 ##
