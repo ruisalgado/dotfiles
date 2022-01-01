@@ -2,9 +2,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.zsh: zsh/
     ~/.zshrc:
@@ -12,8 +12,6 @@
         path: zshrc
     ~/.gitignore: gitignore
     ~/.gitconfig: gitconfig
-    ~/.emacs: emacs
-    ~/.emacs.d: emacs.d
     ~/bin: bin
     "~/Library/Application\ Support/Code/User/settings.json": code/settings.json
     "~/Library/Application\ Support/Code/User/keybindings.json": code/keybindings.json
