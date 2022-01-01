@@ -2,8 +2,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: vimrc
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.vimrc: vimrc
+    ~/.config/nvim: nvim/
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.zsh: zsh/
