@@ -5,4 +5,6 @@ alias mct="mvn clean test"
 alias simplehttp="python -m SimpleHTTPServer"
 alias git-root='cd $(git rev-parse --show-cdup)'
 alias gre="git-recent"
+alias gci="git commit"
+alias gst="git status"
 alias chrome='open -a Google\ Chrome'
