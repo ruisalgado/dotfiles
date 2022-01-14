@@ -1,6 +1,9 @@
 # DIRENV
 eval "$(direnv hook zsh)"
 
+# HOMEBREW
+[ -d `brew --prefix` ] && path=($path `brew --prefix`/bin)
+
 # Z
 [ -f `brew --prefix`/etc/profile.d/z.sh ] && . `brew --prefix`/etc/profile.d/z.sh
 
