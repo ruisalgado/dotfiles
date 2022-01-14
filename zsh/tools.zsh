@@ -29,3 +29,10 @@ function code {
 
 # BROOT
 [ -f ~/.config/broot/launcher/bash/br ] && . ~/.config/broot/launcher/bash/br
+
+# ANDROID
+[ -d ~/Library/Android/sdk ] && path=(
+    $path
+    ~/Library/Android/sdk/platform-tools
+)
+
