@@ -10,6 +10,9 @@ eval "$(direnv hook zsh)"
 # ASDF
 [ -f `brew --prefix`/opt/asdf/libexec/asdf.sh ] && . `brew --prefix`/opt/asdf/libexec/asdf.sh
 
+# RUBYGEMS
+[ -d "$HOME/.gem" ] && export GEM_HOME="$HOME/.gem" && path=($path "$GEM_HOME/bin")
+
 # FZF
 [ -f ~/.fzf.zsh ] && . ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse'
@@ -34,8 +37,9 @@ function code {
 [ -f ~/.config/broot/launcher/bash/br ] && . ~/.config/broot/launcher/bash/br
 
 # ANDROID
-[ -d ~/Library/Android/sdk ] && path=(
-    $path
-    ~/Library/Android/sdk/platform-tools
-)
+if [[ -d ~/Library/Android/sdk ]]
+then
+    path=($path ~/Library/Android/sdk/platform-tools)
+    path=($path ~/Library/Android/sdk/build-tools/32.0.0) # note the specific version of build-tools being used
+fi
 
