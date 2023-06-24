@@ -9,6 +9,7 @@ eval "$(direnv hook zsh)"
 
 # ASDF
 [ -f `brew --prefix`/opt/asdf/libexec/asdf.sh ] && . `brew --prefix`/opt/asdf/libexec/asdf.sh
+[ ~/.asdf/plugins/java/set-java-home.zsh ] && . ~/.asdf/plugins/java/set-java-home.zsh
 
 # RUBYGEMS
 [ -d "$HOME/.gem" ] && export GEM_HOME="$HOME/.gem" && path=($path "$GEM_HOME/bin")
@@ -39,6 +40,7 @@ function code {
 # ANDROID
 if [[ -d ~/Library/Android/sdk ]]
 then
+    path=($path ~/Library/Android/sdk/tools)
     path=($path ~/Library/Android/sdk/platform-tools)
     path=($path ~/Library/Android/sdk/build-tools/32.0.0) # note the specific version of build-tools being used
 fi
