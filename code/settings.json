@@ -4,15 +4,17 @@
     "editor.minimap.enabled": false,
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 0,
     "typescript.check.npmIsInstalled": false,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
     "workbench.editor.enablePreview": false,
     "explorer.confirmDragAndDrop": false,
     "workbench.iconTheme": "vscode-icons",
     "[terraform]": {
 
     },
-    "javascript.updateImportsOnFileMove.enabled": "never"
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "emmet.includeLanguages": {
+        "nunjucks": "html"
+    },
+    "window.zoomLevel": 1
 }
