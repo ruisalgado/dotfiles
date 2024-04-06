@@ -40,8 +40,9 @@ function code {
 # ANDROID
 if [[ -d ~/Library/Android/sdk ]]
 then
+    export ANDROID_HOME=~/Library/Android/sdk
     path=($path ~/Library/Android/sdk/tools)
     path=($path ~/Library/Android/sdk/platform-tools)
-    path=($path ~/Library/Android/sdk/build-tools/32.0.0) # note the specific version of build-tools being used
+    path=($path ~/Library/Android/sdk/build-tools/33.0.2) # note the specific version of build-tools being used
 fi
 
